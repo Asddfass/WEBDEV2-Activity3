@@ -1,3 +1,3 @@
 # ACTIVITY #3
 
-// By: Ali Hassan Sali
+By: Ali Hassan Sali
