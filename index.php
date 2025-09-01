@@ -108,7 +108,7 @@
         <input type="number" name="stock_quantity" min="0" value="<?php echo $stock_count?>"><br>
         <p class="error"><?php echo $stock_count_error;?></p>
         <label for="">Expiration Data:</label><br>
-        <input type="text" name="expiration_date" value="<?php echo $expiration_date?>"><br>
+        <input type="date" name="expiration_date" value="<?php echo $expiration_date?>"><br>
         <p class="error"><?php echo $expiration_date_error;?></p>
         <label for="">Status:</label><br>
         <p class="error"><?php echo $status_error;?></p>
@@ -117,4 +117,5 @@
         <input type="submit" value="Save Product">
     </form>
 </body>
+
 </html>
